@@ -4,4 +4,4 @@ Review Scrapper(FlipKart)
 Using Flask(Framework)
 
 
-URL: [Preview](https://reviewscapper.herokuapp.com)
+URL: [Website URL](https://reviewscapper.herokuapp.com)
