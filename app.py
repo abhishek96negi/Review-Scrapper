@@ -30,8 +30,8 @@ def index():
             flipkartPage = uClient.read() # reading the webpage
             uClient.close() # closing the connection to the web server
             flipkart_html = bs(flipkartPage, "html.parser") # parsing the webpage as HTML
-            bigboxes = flipkart_html.findAll("div", {"class": "_2pi5LC col-12-12"}) # seacrhing for appropriate tag to redirect to the product link
-            del bigboxes[0:2] # the first 3 members of the list do not contain relevant information, hence deleting them.
+            bigboxes = flipkart_html.findAll("div", {"class": "_1AtVbE col-12-12"}) # seacrhing for appropriate tag to redirect to the product link
+            del bigboxes[0:3] # the first 3 members of the list do not contain relevant information, hence deleting them.
             print(bigboxes)
             box = bigboxes[0] #  taking the first iteration (for demo)
             print(box)
